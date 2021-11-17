@@ -1,0 +1,21 @@
+.single {
+  padding: 20px 16px;
+  background: #fff;
+  display: block;
+  margin: 20px 10px;
+  cursor: pointer;
+  position: relative;
+}
+.single::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 0;
+  background-color: #4979ff;
+  left: 0;
+  top: 0;
+  transition: height 0.2s linear;
+}
+.single:hover::before {
+  height: 100%;
+}
