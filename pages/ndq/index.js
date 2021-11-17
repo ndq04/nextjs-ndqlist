@@ -23,7 +23,7 @@ function Ndq({users}) {
           content='web, react, reactjs, nextjs, frontend'
         />
       </Head>
-      <div>
+      <div className='content details'>
         <h1>Ndq</h1>
         <ul>
           {users.map((user) => (

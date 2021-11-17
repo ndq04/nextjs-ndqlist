@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 function Navbar() {
   return (
@@ -7,7 +6,7 @@ function Navbar() {
       <div className='logo'>
         <Link href='/'>
           <a>
-            <Image
+            <img
               src='/favicon.ico'
               width={60}
               height={60}
